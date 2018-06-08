@@ -1,5 +1,5 @@
 def FizzBuzz(num)
-  1..(num+1).times do |i|
+  (num+1).times do |i|
     next if i == 0
     if i % 15 == 0
       puts "FizzBuzz"
